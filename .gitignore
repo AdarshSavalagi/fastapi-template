@@ -1,0 +1,39 @@
+# ==========================
+# PYTHON / FASTAPI
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Environment Variables (CRITICAL)
+.env
+
+# ==========================
+# ALEMBIC (Migrations)
+# ==========================
+# We keep alembic.ini and migration scripts
+# But ignore compiled files inside the migrations folder
+alembic/**/__pycache__/
+
+# ==========================
+# SYSTEM & IDE (Mac/VSCode)
+# ==========================
+.DS_Store
+.vscode/
+.idea/
+*.log
+
+# ==========================
+# TESTING / STORAGE
+# ==========================
+.pytest_cache/
+.coverage
+htmlcov/
+# If you eventually store local uploads for testing before S3
+uploads/
