@@ -1,4 +1,4 @@
-# ExamCTL Backend API
+# Fast API template
 
 
 ## 🚀 Prerequisites
